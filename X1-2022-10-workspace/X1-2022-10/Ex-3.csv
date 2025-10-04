@@ -1,0 +1,8 @@
+Label;Scope;Max;Value
+3 Stack generic class;Subtotal;4.00;4.00
+3a Stack class declaration;Element;1.00;1.00
+3b Stack constructor;Element;0.50;0.50
+3c Stack element pushing;Element;0.50;0.50
+3d Stack LIFO behavior;Element;1.00;1.00
+3e Stack isEmpty() check;Element;0.50;0.50
+3f Stack robustness;Element;0.50;0.50

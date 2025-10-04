@@ -1,0 +1,10 @@
+2 Stirling class
+ 4.00 /  4.00
+
+Detailed grades:
+ 0.50 /  0.50   2a Factorial method declaration
+ 0.50 /  0.50   2b Factorial method declaration, continued
+ 1.00 /  1.00   2c Computes approximately n!
+ 1.00 /  1.00   2d Computes the given Stirling formula
+ 0.50 /  0.50   2e Calls static Math methods pow and sqrt
+ 0.50 /  0.50   2f Uses Math constants E and PI

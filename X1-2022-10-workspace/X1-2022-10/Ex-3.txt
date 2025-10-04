@@ -1,0 +1,10 @@
+3 Stack generic class
+ 4.00 /  4.00
+
+Detailed grades:
+ 1.00 /  1.00   3a Stack class declaration
+ 0.50 /  0.50   3b Stack constructor
+ 0.50 /  0.50   3c Stack element pushing
+ 1.00 /  1.00   3d Stack LIFO behavior
+ 0.50 /  0.50   3e Stack isEmpty() check
+ 0.50 /  0.50   3f Stack robustness
