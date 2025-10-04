@@ -1,0 +1,37 @@
+3.1 Node class (3 points)
+ 2.00 /  3.00
+
+Detailed grades:
+ 0.50 /  0.50   3.1.1 Node creation
+ 0.50 /  0.50   3.1.2 Child addition
+ 0.50 /  0.50   3.1.3 String representation: elements in addition order
+ 0.50 /  0.50   3.1.4 Node size and height
+ 0.00 /  0.50   3.1.5 Node class visibilities
+                All UML visibilities should be respected, in particular package-private visibility
+ 0.00 /  0.50   3.1.6 String representation: indentation
+                Children nodes should be indented in a way that reflects their depth in the tree
+
+
+
+Detailed failures:
+
+3.1.5 Node class visibilities
+    Multiple Failures (1 failure)
+    -- failure 1 --
+    Expecting actual:
+      public class Node<E>
+    to have visibility package-private
+    at Types.assertHasVisibility(Types.java:239)
+
+3.1.6 String representation: indentation
+    Custom indentation cannot be tested automatically.
+    Is the following tree well indented and does it have the right content?
+    
+    0
+      1
+      2
+        21
+          211
+        22
+      3
+

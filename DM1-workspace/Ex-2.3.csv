@@ -1,0 +1,9 @@
+Label;Scope;Max;Value
+2.3 BikeRentalSystem class (5 points);Subtotal;5.00;3.00
+2.3.1 bikes attribute type and initialization;Element;1.00;1.00
+2.3.2 addBike() method;Element;1.00;1.00
+2.3.3 addBike() method with duplicate;Element;0.50;0.50
+2.3.4 recordRental() method;Element;1.00;0.00
+2.3.5 recordRental() method with unknown bike;Element;0.50;0.00
+2.3.6 showAll() method;Element;0.50;0.00
+2.3.7 public and private visibility;Element;0.50;0.50

@@ -1,0 +1,79 @@
+2.3 BikeRentalSystem class (5 points)
+ 3.00 /  5.00
+
+Detailed grades:
+ 1.00 /  1.00   2.3.1 bikes attribute type and initialization
+ 1.00 /  1.00   2.3.2 addBike() method
+ 0.50 /  0.50   2.3.3 addBike() method with duplicate
+ 0.00 /  1.00   2.3.4 recordRental() method
+                recordRental() method should create and add a rental to the rentals list
+ 0.00 /  0.50   2.3.5 recordRental() method with unknown bike
+                recordRental() method should report an error when adding a rental for an unknown bike
+ 0.00 /  0.50   2.3.6 showAll() method
+                showAll() method should print all bikes and rentals
+ 0.50 /  0.50   2.3.7 public and private visibility
+
+
+
+Detailed failures:
+
+2.3.4 recordRental() method
+    Multiple Failures (3 failures)
+    -- failure 1 --
+    Expecting actual's toString() to return:
+      "Bike X Alice 42.42"
+    but was:
+      "Bike X Alice 42,42"
+    at BikeRentalSystemGradingTest.testRecordRental(BikeRentalSystemGradingTest.java:183)
+    -- failure 2 --
+    Expecting actual's toString() to return:
+      "Bike Y Bob 24.24"
+    but was:
+      "Bike Y Bob 24,24"
+    at BikeRentalSystemGradingTest.testRecordRental(BikeRentalSystemGradingTest.java:187)
+    -- failure 3 --
+    Expecting actual's toString() to return:
+      "Bike Y Alice 100.00"
+    but was:
+      "Bike Y Alice 100,00"
+    at BikeRentalSystemGradingTest.testRecordRental(BikeRentalSystemGradingTest.java:191)
+
+2.3.5 recordRental() method with unknown bike
+    Multiple Failures (3 failures)
+    -- failure 1 --
+    Expecting actual's toString() to return:
+      "Bike X Alice 42.42"
+    but was:
+      "Bike X Alice 42,42"
+    at BikeRentalSystemGradingTest.testRecordRentalBikeNotFound(BikeRentalSystemGradingTest.java:225)
+    -- failure 2 --
+    Expecting actual's toString() to return:
+      "Bike Y Bob 24.24"
+    but was:
+      "Bike Y Bob 24,24"
+    at BikeRentalSystemGradingTest.testRecordRentalBikeNotFound(BikeRentalSystemGradingTest.java:229)
+    -- failure 3 --
+    Expecting actual's toString() to return:
+      "Bike Y Alice 100.00"
+    but was:
+      "Bike Y Alice 100,00"
+    at BikeRentalSystemGradingTest.testRecordRentalBikeNotFound(BikeRentalSystemGradingTest.java:233)
+
+2.3.6 showAll() method
+    Expecting actual:
+      "Bike X
+    Bike Y
+    Bike X Alice 42,42
+    Bike Y Bob 24,24
+    Bike Y Alice 100,00
+    "
+    to contain:
+      ["Bike X",
+        "Bike Y",
+        "Bike X Alice 42.42",
+        "Bike Y Bob 24.24",
+        "Bike Y Alice 100.00"]
+    but could not find:
+      ["Bike X Alice 42.42", "Bike Y Bob 24.24", "Bike Y Alice 100.00"]
+     
+

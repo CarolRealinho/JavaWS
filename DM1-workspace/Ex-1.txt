@@ -1,0 +1,14 @@
+1 MoreMath class (4 points)
+ 0.00 /  0.50
+
+Detailed grades:
+ 0.00 /  0.50   1.6 Predefined Math methods are used
+                MoreMath code should use Math.log() and Math.sqrt()
+
+
+
+Detailed failures:
+
+1.6 Predefined Math methods are used
+    Unexpected UncheckedIOException: Unable to read /home/carolina/JavaWS/DM1-workspace/src/math/MoreMath.java
+

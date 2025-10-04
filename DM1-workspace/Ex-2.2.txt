@@ -1,0 +1,10 @@
+2.2 Rental class and Bike.addRental() method (5 points)
+ 5.00 /  5.00
+
+Detailed grades:
+ 1.00 /  1.00   2.2.1 Rental attributes and constructor
+ 1.00 /  1.00   2.2.2 Rental toString() method
+ 0.50 /  0.50   2.2.3 Rental public and private visibility
+ 1.00 /  1.00   2.2.4 Rental constructor calling Bike's addRental() method
+ 1.00 /  1.00   2.2.5 Bike: rentals storage
+ 0.50 /  0.50   2.2.6 Bike: total distance update

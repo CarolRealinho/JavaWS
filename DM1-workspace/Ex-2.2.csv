@@ -1,0 +1,8 @@
+Label;Scope;Max;Value
+2.2 Rental class and Bike.addRental() method (5 points);Subtotal;5.00;5.00
+2.2.1 Rental attributes and constructor;Element;1.00;1.00
+2.2.2 Rental toString() method;Element;1.00;1.00
+2.2.3 Rental public and private visibility;Element;0.50;0.50
+2.2.4 Rental constructor calling Bike's addRental() method;Element;1.00;1.00
+2.2.5 Bike: rentals storage;Element;1.00;1.00
+2.2.6 Bike: total distance update;Element;0.50;0.50
