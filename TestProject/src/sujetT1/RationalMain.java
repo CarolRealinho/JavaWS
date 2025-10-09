@@ -11,5 +11,9 @@ public class RationalMain {
         System.out.println(r2.toString());
         System.out.println(r3.toString());
         System.out.println(r4.toString());
+
+        Rational f = new Rational(4, 5);
+System.out.println(EgyptianFractions.decompose(f));
+
     }
 }
