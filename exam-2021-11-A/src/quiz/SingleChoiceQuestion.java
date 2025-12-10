@@ -2,11 +2,19 @@ package quiz;
 
 import java.util.ArrayList;
 
-public class SingleChoiceQuestion {
+public class SingleChoiceQuestion implements Question{
     private ArrayList<Answer> answers;
     private String questionText;
 
     public SingleChoiceQuestion(String questionText) {
+        if(questionText == null){
+            String anomaly = "The question cannot be null!";
+            throw new IllegalArgumentException(anomaly);
+        }
+        if(questionText.isEmpty()){
+            String anomaly = "The question cannot be empty!";
+            throw new IllegalArgumentException(anomaly);
+        }
         this.questionText = questionText;
         this.answers = new ArrayList<Answer>();
     }

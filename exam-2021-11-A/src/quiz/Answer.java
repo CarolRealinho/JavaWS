@@ -5,6 +5,14 @@ public class Answer {
     private boolean right;
 
     public Answer(String text, boolean right) {
+        if(text == null){
+            String anomaly = "The answer cannot be null!";
+            throw new IllegalArgumentException(anomaly);
+        }
+        if(text.isEmpty()){
+            String anomaly = "The answer cannot be empty!";
+            throw new IllegalArgumentException(anomaly);
+        }
         this.text = text;
         this.right = right;
     }

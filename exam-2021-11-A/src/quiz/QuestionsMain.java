@@ -2,7 +2,7 @@ package quiz;
 public class QuestionsMain {
     public static void main(String[] args) {
         
-        Answer a1 = new Answer("0", false);
+        /*Answer a1 = new Answer("0", false);
         Answer a2 = new Answer("12", true);
 
         SingleChoiceQuestion single = 
@@ -10,10 +10,8 @@ public class QuestionsMain {
         single.addAnswer(a1);
         single.addAnswer(a2);
         single.showToStudent();
-        single.showToTeacher();
+        single.showToTeacher();*/
         
-
-        /*
         MultipleChoiceQuestion multiple = 
             new MultipleChoiceQuestion("Quels mot-clés Java sont directement liés au sous-typage ?");
         multiple.addAnswer(new Answer("interface", true));
@@ -22,6 +20,6 @@ public class QuestionsMain {
         multiple.addAnswer(new Answer("while", false));
         multiple.showToStudent();
         multiple.showToTeacher();
-        */
+        
     }
 }
