@@ -2,11 +2,12 @@ package quiz2;
 
 import java.util.ArrayList;
 
-public class MultipleChoiceQuestion {
+public class MultipleChoiceQuestion extends AbstractQuestion{
     protected ArrayList<Answer> answers;
     private String questionText;
 
     public MultipleChoiceQuestion(String questionText) {
+        
         this.questionText = questionText;
         this.answers = new ArrayList<Answer>();
     }

@@ -1,11 +1,12 @@
 package quiz2;
 
-public class SingleChoiceQuestion {
+public class SingleChoiceQuestion extends MultipleChoiceQuestion {
 
     public SingleChoiceQuestion(String questionText) {
+        super(questionText);
     }
 
     public boolean isValid() {
-        return false;
+        return super.answersPercentsSum() == 100.0;
     }
 }
